@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 18, 18);
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+/* ♥ Caméra ♥*/
+.cam{
+    width: 50px;
+    margin-left: 5%;
+}
+
+/* ♥ Bouton ♥ */
+button{
+    margin-top: 2%;
+}
+.b1{
+    width: 40px;
+    height: 40px;
+    border: solid rgb(210, 0, 0);
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.b2{
+    width: 55px;
+    height: 55px;
+    background-image: url(-10sec.png);
+    border-color: black;
+    border-radius: 20px;
+}
+.b3{
+    width: 55px;
+    height: 55px;
+    background-image: url(+10sec.png);
+    border-color: black;
+    border-radius: 20px;
+}
+
+/* ♥ Vidéo ♥ */
+.night{
+    width: 1150px;
+    height: 650px;
+    margin-left: 8%;
+    margin-top: 4%;
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 10px 10px 10px;
+}
+
